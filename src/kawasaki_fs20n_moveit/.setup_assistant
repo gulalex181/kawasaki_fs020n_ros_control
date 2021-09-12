@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: kawasaki_fs20n_description
+    relative_path: kawasaki_fs20n.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/kawasaki_fs20n.srdf
+  CONFIG:
+    author_name: alex guln
+    author_email: gulalex181@yandex.ru
+    generated_timestamp: 1629739289

@@ -1,0 +1,8 @@
+prefix=/home/alex/dev/ros/kawasaki_fs20n_control_ws/install
+
+Name: kawasaki_fs20n_moveit
+Description: Description of kawasaki_fs20n_moveit
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
