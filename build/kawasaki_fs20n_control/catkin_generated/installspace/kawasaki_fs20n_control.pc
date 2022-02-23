@@ -1,8 +1,0 @@
-prefix=/home/alex/dev/ros/kawasaki_fs20n_control_ws/install
-
-Name: kawasaki_fs20n_control
-Description: Description of kawasaki_fs20n_control
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: message_runtime

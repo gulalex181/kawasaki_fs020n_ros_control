@@ -1,2 +1,0 @@
-kawasaki_fs20n_control:kawasaki_fs20n_description:kawasaki_fs20n_moveit:ros_control_boilerplate
--DCATKIN_DEVEL_PREFIX=/home/alex/dev/ros/kawasaki_fs20n_control_ws/devel -DCMAKE_INSTALL_PREFIX=/home/alex/dev/ros/kawasaki_fs20n_control_ws/install -G Unix Makefiles

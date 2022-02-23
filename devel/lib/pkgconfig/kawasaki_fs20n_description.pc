@@ -1,8 +1,0 @@
-prefix=/home/alex/dev/ros/kawasaki_fs20n_control_ws/devel
-
-Name: kawasaki_fs20n_description
-Description: Description of kawasaki_fs20n_description
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
