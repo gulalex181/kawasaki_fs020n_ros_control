@@ -1,0 +1,7 @@
+kawasaki_fs20n_hw_interface:
+    robot_ip: "127.0.0.1"
+    #robot_ip: "192.168.5.250" # ROBOT L
+    # robot_ip: "192.168.5.242" # ROBOT R
+    robot_port: 5555
+    # robot_port: 10050
+    robot_version: "1040"

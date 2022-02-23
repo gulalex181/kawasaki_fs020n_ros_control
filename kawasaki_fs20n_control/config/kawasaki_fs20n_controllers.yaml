@@ -1,0 +1,39 @@
+# ros_control_boilerplate Settings -----------------------
+# Settings for ros_control control loop
+
+generic_hw_control_loop:
+  loop_hz: 200 # read from / write to robot rate
+  cycle_time_error_threshold: 0.01 # threshold time of one cycle, if time is larger than the specified, an error will be throwed
+
+# Settings for ros_control hardware interface (used in generic_hw_interface.cpp)
+hardware_interface:
+   joints:
+      - joint0
+      - joint1
+      - joint2
+      - joint3
+      - joint4
+      - joint5
+
+
+
+# Publish all joint states ----------------------------------
+# Creates the /joint_states topic necessary in ROS
+joint_state_controller:
+   type: joint_state_controller/JointStateController # takes data read from the robot and makes it available to ros control
+   publish_rate: 200
+
+# Joint Trajectory Controller -------------------------------
+# For detailed explanations of parameter see http://wiki.ros.org/joint_trajectory_controller
+position_trajectory_controller:
+   type: position_controllers/JointTrajectoryController # tell ros control that it needs to plan a set of
+                                                        # synchronised goals (means that joints must arrive at the goals at the same time)
+                                                        # for the set of specified joints
+   # These joints can likely just be copied from the hardware_interface list above
+   joints:
+      - joint0
+      - joint1
+      - joint2
+      - joint3
+      - joint4
+      - joint5
