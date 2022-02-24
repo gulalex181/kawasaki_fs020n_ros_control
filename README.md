@@ -6,7 +6,7 @@
 
     `Note` Install Desktop-Full version of ROS.
 
-    `Note` To chech version of your Ubuntu use `lsb_release -a` or `cat /etc/*-release`.
+    `Note` To check version of your Ubuntu use `lsb_release -a` or `cat /etc/*-release`.
 
 2. Install extra packages:
 
